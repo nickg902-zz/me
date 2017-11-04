@@ -19,33 +19,72 @@
 </head>
 <body>
   <header>
-    <h1>Welcome to my GitHub Site!</h1>
+
   </header>
   <!-- navigation menu -->
-  <nav>
-    <div class="topnav" id="myTopnav">
-      <a href="index.html">Home</a>
-      <a href="projects.html">Projects</a>
-      <a href="resume.html">Resume</a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    <div id="navbar">
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
     </div>
-  </nav>
   <!-- CONTENT -->
   <main>
-   <p>My name is Nick. I have been in several roles in IT, from service desk to security. One skill I am working on is
-   web development. So, this page is dedicated to learning html, css and javascript. Also, git :)</p>
+   <div id="about">
+   <a id="about" class="smooth"></a>
+    <h1>About Me</h1>
+    <p>My name is Nick. I have been in several roles in IT, from service desk to security. One skill I am working on is
+         web development. So, this page is dedicated to learning html, css and javascript. Also, git :)</p>
+   </div>
 
+   <div id="portfolio">
+   <a id="portfolio" class="smooth"></a>
+     <h1>Portfolio</h1>
+     <h3>The Halifax Area Security Klatch</h3>
+     <ul>
+     <li>Wordpress</li>
+     <li>Visit: <a href="http://thehask.com" target="_blank">http://thehask.com</a></li>
+     </ul>
+     <p>
+      <img src="images/projects/thehask.png" alt="the hask website">
+     </p>
+   </div>
+
+   <div id="skills">
+   <a id="skills" class="skills"></a>
+     <h1>Skills</h1>
+     <p>
+       <img src="images/icons/html.svg" alt="HTML5 logo" width="128px">
+       <img src="images/icons/css.svg" alt="CSS3 logo" width="128px">
+       <img src="images/icons/psd.svg" alt="Adobe Photoshop logo" width="128px">
+       <img src="images/icons/ai.svg" alt="Adobe Illustrator logo" width="128px">
+       <img src="images/icons/wordpress.svg" alt="WordPress logo" width="128px">
+     </p>
+
+    <div id="experience">
+    <a id="experience" class="experience"></a>
+     <h1>Work Experience</h1>
+     <p>
+       <h4>AtlSecCon Events Society</h4>
+       <p>Designed and maintain the website for the Atlantic Security Conference and Halifax Area Security Klatch.</p>
+     </p>
+   </div>
   </main>
+
   <!-- FOOTER -->
   <footer>
-    <p>©Copyright 2017 by nickg. All rights reversed.</p>
+    <div id="contact">
+    <a id="contact" class="smooth"></a>
     <!-- SOCIAL -->
     <a href="https://github.com/nickg902" target="_blank" class="fa fa-github"></a>
     <a href="https://twitter.com/nickg902" target="_blank" class="fa fa-twitter"></a>
     <a href="https://www.linkedin.com/in/nickg902/" target="_blank" class="fa fa-linkedin"></a>
+    <p>©Copyright 2017 by nickg. All rights reversed.</p>
   </footer>
 
   <script type="text/javascript" src="myscripts.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
 </body>
 
 </html>
